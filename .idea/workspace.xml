@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f05595cf-40b3-4e06-8c5a-0f9613d92f6b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/DvdController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/app/Models/DvdQuery.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/resources/views/results.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/resources/views/search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/Http/routes.php" afterPath="$PROJECT_DIR$/laravel/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="f05595cf-40b3-4e06-8c5a-0f9613d92f6b" name="Default" comment="" />
     <ignored path="itp405-spring2015-mvc.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,7 +26,7 @@
       <file leaf-file-name=".env" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="19" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+            <state line="7" column="19" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="289">
               <folding />
             </state>
           </provider>
@@ -42,10 +35,8 @@
       <file leaf-file-name="DvdController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/DvdController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="31" selection-start="295" selection-end="295" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="714">
-              <folding>
-                <element signature="e#39#67#0" expanded="true" />
-              </folding>
+            <state line="11" column="31" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="714">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -53,7 +44,7 @@
       <file leaf-file-name="DvdQuery.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/app/Models/DvdQuery.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="496" selection-end="496" vertical-scroll-proportion="-5.5576925" vertical-offset="0" max-vertical-offset="799">
+            <state line="17" column="0" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="799">
               <folding />
             </state>
           </provider>
@@ -71,7 +62,7 @@
       <file leaf-file-name="results.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/resources/views/results.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="4" selection-start="235" selection-end="235" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="833">
+            <state line="12" column="4" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="833">
               <folding />
             </state>
           </provider>
@@ -80,7 +71,7 @@
       <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="45" selection-start="148" selection-end="148" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
+            <state line="4" column="45" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
               <folding />
             </state>
           </provider>
@@ -145,6 +136,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -307,7 +299,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,7 +306,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/itp405-spring2015-song-insert-page" />
+    <property name="last_opened_file_path" value="$USER_HOME$/itp405-spring2015-mvc-DABLOTEST" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SearchEverywhereHistory" value="" />
     <property name="FullScreen" value="false" />
@@ -347,15 +338,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18697916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18697916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -364,9 +354,10 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -388,6 +379,48 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/laravel/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="19" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/DvdController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="31" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Models/DvdQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="32" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/results.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="4" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="45" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
@@ -424,41 +457,37 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/storage/logs/laravel-2015-02-18.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="208" selection-start="7287" selection-end="7287" vertical-scroll-proportion="0.21468927" vertical-offset="575" max-vertical-offset="38879" />
+      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="208" selection-start="7287" selection-end="7287" vertical-scroll-proportion="0.21468927" vertical-offset="575" max-vertical-offset="38879">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="45" selection-start="148" selection-end="148" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
+        <state line="4" column="45" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/Models/DvdQuery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="496" selection-end="496" vertical-scroll-proportion="-5.5576925" vertical-offset="0" max-vertical-offset="799">
+        <state line="17" column="0" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="799">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/DvdController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="31" selection-start="295" selection-end="295" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="714">
-          <folding>
-            <element signature="e#39#67#0" expanded="true" />
-          </folding>
+        <state line="11" column="31" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="714">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/resources/views/results.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="4" selection-start="235" selection-end="235" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="833">
+        <state line="12" column="4" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="833">
           <folding />
         </state>
       </provider>
