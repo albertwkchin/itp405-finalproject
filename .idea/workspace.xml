@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f05595cf-40b3-4e06-8c5a-0f9613d92f6b" name="Default" comment="" />
+    <list default="true" id="f05595cf-40b3-4e06-8c5a-0f9613d92f6b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/resources/views/review.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/.gitignore" afterPath="$PROJECT_DIR$/laravel/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/Http/Controllers/DvdController.php" afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/DvdController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/Models/DvdQuery.php" afterPath="$PROJECT_DIR$/laravel/app/Models/DvdQuery.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/resources/views/results.php" afterPath="$PROJECT_DIR$/laravel/resources/views/results.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/Http/routes.php" afterPath="$PROJECT_DIR$/laravel/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/resources/views/search.php" afterPath="$PROJECT_DIR$/laravel/resources/views/search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="itp405-spring2015-mvc.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,37 +32,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".env" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="19" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="289">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DvdController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/DvdController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="31" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="714">
+            <state line="59" column="69" selection-start="1914" selection-end="1914" vertical-scroll-proportion="-23.384615" vertical-offset="395" max-vertical-offset="1360">
+              <folding>
+                <element signature="e#39#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="review.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/resources/views/review.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="104" selection-start="178" selection-end="178" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="1989">
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="13" selection-start="21" selection-end="21" vertical-scroll-proportion="-0.68" vertical-offset="0" max-vertical-offset="136">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DvdQuery.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DvdQuery.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/laravel/app/Models/DvdQuery.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="799">
-              <folding />
+            <state line="65" column="52" selection-start="2286" selection-end="2286" vertical-scroll-proportion="0.12820514" vertical-offset="990" max-vertical-offset="1887">
+              <folding>
+                <element signature="e#29#36#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="search.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/resources/views/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="25" selection-start="531" selection-end="531" vertical-scroll-proportion="0.37904125" vertical-offset="0" max-vertical-offset="897">
+            <state line="9" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="867">
               <folding />
             </state>
           </provider>
@@ -62,7 +87,7 @@
       <file leaf-file-name="results.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/resources/views/results.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="4" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="833">
+            <state line="18" column="32" selection-start="359" selection-end="359" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="935">
               <folding />
             </state>
           </provider>
@@ -71,7 +96,7 @@
       <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="45" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
+            <state line="5" column="48" selection-start="205" selection-end="205" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
               <folding />
             </state>
           </provider>
@@ -94,12 +119,15 @@
         <option value="$PROJECT_DIR$/laravel/app/Models/SongQuery.php" />
         <option value="$PROJECT_DIR$/laravel/app/Models/GenreQuery.php" />
         <option value="$PROJECT_DIR$/laravel/app/Models/RatingQuery.php" />
-        <option value="$PROJECT_DIR$/laravel/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/laravel/resources/views/results.php" />
         <option value="$PROJECT_DIR$/laravel/.env" />
-        <option value="$PROJECT_DIR$/laravel/app/Http/Controllers/DvdController.php" />
-        <option value="$PROJECT_DIR$/laravel/app/Models/DvdQuery.php" />
+        <option value="$PROJECT_DIR$/laravel/resources/views/vendor/review.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/.gitignore" />
+        <option value="$PROJECT_DIR$/laravel/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/search.php" />
+        <option value="$PROJECT_DIR$/laravel/resources/views/results.php" />
+        <option value="$PROJECT_DIR$/laravel/app/Http/Controllers/DvdController.php" />
+        <option value="$PROJECT_DIR$/laravel/resources/views/review.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/app/Models/DvdQuery.php" />
       </list>
     </option>
   </component>
@@ -136,7 +164,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -299,6 +326,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -306,7 +334,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/itp405-spring2015-mvc-DABLOTEST" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SearchEverywhereHistory" value="" />
     <property name="FullScreen" value="false" />
@@ -353,11 +381,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -388,15 +416,157 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/DvdController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="31" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="714">
-          <folding />
+        <state line="12" column="32" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="697">
+          <folding>
+            <element signature="e#39#67#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/Models/DvdQuery.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="799">
+          <folding>
+            <element signature="e#29#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="29" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="867">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/results.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="27" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="43" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="19" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/DvdController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="31" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="714">
+          <folding>
+            <element signature="e#39#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Models/DvdQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="799">
+          <folding>
+            <element signature="e#29#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="31" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/results.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="4" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="45" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="19" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/DvdController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="31" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="714">
+          <folding>
+            <element signature="e#39#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Models/DvdQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="799">
+          <folding>
+            <element signature="e#29#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="25" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/results.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="4" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="45" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="19" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/DvdController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="31" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="714">
+          <folding>
+            <element signature="e#39#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Models/DvdQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="799">
+          <folding>
+            <element signature="e#29#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -431,14 +601,18 @@
     <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/DvdController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="31" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="714">
-          <folding />
+          <folding>
+            <element signature="e#39#67#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/Models/DvdQuery.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="799">
-          <folding />
+          <folding>
+            <element signature="e#29#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -491,53 +665,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/storage/logs/laravel-2015-02-18.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="208" selection-start="7287" selection-end="7287" vertical-scroll-proportion="0.21468927" vertical-offset="575" max-vertical-offset="38879" />
-      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="45" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
-          <folding />
-        </state>
+        <state line="45" column="208" selection-start="7287" selection-end="7287" vertical-scroll-proportion="0.21468927" vertical-offset="575" max-vertical-offset="38879" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/Models/DvdQuery.php">
+    <entry file="file://$PROJECT_DIR$/laravel/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/DvdController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="31" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="714">
+        <state line="3" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/resources/views/results.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="4" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="833">
+        <state line="18" column="32" selection-start="359" selection-end="359" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/DvdController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="69" selection-start="1914" selection-end="1914" vertical-scroll-proportion="-23.384615" vertical-offset="395" max-vertical-offset="1360">
+          <folding>
+            <element signature="e#39#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="48" selection-start="205" selection-end="205" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/resources/views/search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="25" selection-start="531" selection-end="531" vertical-scroll-proportion="0.37904125" vertical-offset="0" max-vertical-offset="897">
+        <state line="9" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="867">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/review.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="104" selection-start="178" selection-end="178" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="1989">
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="13" selection-start="21" selection-end="21" vertical-scroll-proportion="-0.68" vertical-offset="0" max-vertical-offset="136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Models/DvdQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="52" selection-start="2286" selection-end="2286" vertical-scroll-proportion="0.12820514" vertical-offset="990" max-vertical-offset="1887">
+          <folding>
+            <element signature="e#29#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -10,7 +10,7 @@
 
 <h1>Dvd Search</h1>
 
-    <form action="/dvds" class = "form">
+    <form action="/dvds/results" class = "form">
 
         <input type="text" name="dvd_title" placeholder="Title">
 
