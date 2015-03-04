@@ -1,15 +1,15 @@
 <?php namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\DvdQuery;
+use App\Models\Dvd;
 use Validator;
 
 class DvdController extends Controller {
 
     public function search() {
 
-        $genres = (new DvdQuery)->getGenres();
-        $ratings = (new DvdQuery)->getRatings();
+        $genres = (new Dvd)->getGenres();
+        $ratings = (new Dvd)->getRatings();
         return view('search', [
             'genres' => $genres,
             'ratings' => $ratings
@@ -21,7 +21,7 @@ class DvdController extends Controller {
             return redirect('/dvds/search');
         }
 
-        $query = new DvdQuery();
+        $query = new Dvd();
         $dvds = $query->search([
             'title' => $request->input('dvd_title'),
             'genre_id' => $request->input('genre_id'),
@@ -38,7 +38,7 @@ class DvdController extends Controller {
 
         $dvdID = $request->segment(2);
         $path = $request->path();
-        $dvdQuery = new DvdQuery();
+        $dvdQuery = new Dvd();
         $dvds = $dvdQuery->getDvd($dvdID);
         //dd($dvd);
         if($request->all()){
@@ -68,6 +68,14 @@ class DvdController extends Controller {
                 'id' => $dvdID
             ]);
         }
+    }
+
+    public function create(Request $request) {
+
+
+        return view('create', [
+
+        ]);
     }
 
 
