@@ -102,6 +102,10 @@ class Dvd extends Model {
         DB::table('reviews')->insert($input);
     }
 
+    public function review() {
+        return $this->hasMany('App\Models\Review');
+    }
+
     public function format(){
         return $this->belongsTo('App\Models\Format');
     }

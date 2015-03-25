@@ -3,6 +3,8 @@
 use Illuminate\Http\Request;
 use App\Models\Dvd;
 use Validator;
+use App\Services\RottenTomatoes;
+
 
 class DvdController extends Controller {
 
@@ -40,6 +42,8 @@ class DvdController extends Controller {
         $path = $request->path();
         $dvdQuery = new Dvd();
         $dvds = $dvdQuery->getDvd($dvdID);
+        $rottenTomatoes = (new RottenTomatoes)->search($dvds->title);
+
         //dd($dvd);
         if($request->all()){
             $validator = $dvdQuery->validate($request->all());
@@ -64,6 +68,7 @@ class DvdController extends Controller {
         }
         else{
             return view('review', [
+                'rottenTomatoes' => $rottenTomatoes,
                 'dvds' => $dvds,
                 'id' => $dvdID
             ]);

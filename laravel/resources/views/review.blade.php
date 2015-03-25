@@ -100,6 +100,30 @@
         </table>
     </div>
 
+    @if($rottenTomatoes)
+    <div>
+        <img src="{{$rottenTomatoes['poster']}}">
+    </div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Critic Score</th>
+            <th>Audience Score</th>
+            <th>Runtime</th>
+            <th>Cast</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>{{ $rottenTomatoes['critic_score'] }}</td>
+            <td>{{ $rottenTomatoes['audience_score'] }}</td>
+            <td>{{ $rottenTomatoes['runtime'] }} m</td>
+            <td>{{ $rottenTomatoes['cast'] }}</td>
+        </tr>
+        </tbody>
+    </table>
+    @endif
+
 
 </body>
 
