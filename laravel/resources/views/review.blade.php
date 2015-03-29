@@ -122,6 +122,17 @@
         </tr>
         </tbody>
     </table>
+    @else
+    <table class="table">
+        <thead>
+            <th>Description</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Rotten Tomatoes was unable to find this movie in its database.</td>
+        </tr>
+        </tbody>
+    </table>
     @endif
 
 

@@ -21,9 +21,9 @@ class RottenTomatoes {
         $response = json_decode($json, true);
         $data = NULL;
 
-        // Find the corresponding dvd
+        // Find the corresponding dvd, break after finding 1st one in case of duplicates
         foreach($response['movies'] as $movie) {
-            if ( strcasecmp($movie['title'], $dvd_title) == 0 ) {
+            if ( strcasecmp($movie['title'], $dvd) == 0 ) {
                 $cast = '';
                 foreach($movie['abridged_cast'] as $castMember) {
                     $cast .= $castMember['name'] . ', ';
