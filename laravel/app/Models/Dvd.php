@@ -66,6 +66,7 @@ class Dvd extends Model {
         if($request) {
             if ($request != "" && isset($request)) {
                 $query->where('dvds.id', '=', $request);
+                return $query->first();
             }
         }
         $query->orderBy('title', 'asc');

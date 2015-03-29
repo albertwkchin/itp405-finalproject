@@ -2,8 +2,9 @@
 
 use Illuminate\Http\Request;
 use App\Models\Dvd;
-use Validator;
 use App\Services\RottenTomatoes;
+use Validator;
+
 
 
 class DvdController extends Controller {

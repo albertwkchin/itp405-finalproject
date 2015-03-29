@@ -1,7 +1,8 @@
-<?php
+<?php namespace App\Services;
 
-namespace App\Services;
+
 use Illuminate\Support\Facades\Cache;
+
 
 class RottenTomatoes {
 
@@ -14,7 +15,8 @@ class RottenTomatoes {
             return Cache::get("rt-$dvd_title");
         }
 
-        $url = 'http://api.rottentomatoes.com/api/public/v1.0/movies.json?page=1&apikey=5xc2hxz9sy245jznzpgzwn57' . $dvd_title;
+        $apikey = '5xc2hxz9sy245jznzpgzwn57';
+        $url = 'http://api.rottentomatoes.com/api/public/v1.0/movies.json?page=1&apikey=' . $apikey . '&q=' . $dvd_title;
         $json = file_get_contents($url);
         $response = json_decode($json, true);
         $data = NULL;
@@ -42,4 +44,4 @@ class RottenTomatoes {
         Cache::put("rt-$dvd_title", $data, 60);
         return $data;
     }
-};
+}

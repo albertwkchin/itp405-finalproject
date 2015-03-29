@@ -25,17 +25,17 @@
             </tr>
             </thead>
             <tbody>
-            @foreach ($dvds as $dvd)
+
                 <tr>
-                    <td>{{ $dvd->title }}</td>
-                    <td>{{ $dvd->genre_name }}</td>
-                    <td>{{ $dvd->rating_name }}</td>
-                    <td>{{ $dvd->label_name }}</td>
-                    <td>{{ $dvd->sound_name }}</td>
-                    <td>{{ $dvd->format_name }}</td>
-                    <td>{{ $dvd->release_date_f }}</td>
+                    <td>{{ $dvds->title }}</td>
+                    <td>{{ $dvds->genre_name }}</td>
+                    <td>{{ $dvds->rating_name }}</td>
+                    <td>{{ $dvds->label_name }}</td>
+                    <td>{{ $dvds->sound_name }}</td>
+                    <td>{{ $dvds->format_name }}</td>
+                    <td>{{ $dvds->release_date_f }}</td>
                 </tr>
-            @endforeach
+
             </tbody>
         </table>
     </div>
