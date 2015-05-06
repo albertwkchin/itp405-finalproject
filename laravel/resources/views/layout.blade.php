@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>RecipeBuilder</title>
+    <title>What's To Eat?</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
 </head>
@@ -27,7 +27,7 @@
             <span class="icon-bar"></span>
         </button>
     </div>
-    <a class="navbar-brand" href="/">RecipeBuilder</a>
+    <a class="navbar-brand" href="/">What's To Eat?</a>
     <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-left">
         </ul>

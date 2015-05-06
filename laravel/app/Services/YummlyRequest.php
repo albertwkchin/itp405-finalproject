@@ -6,6 +6,26 @@ use Illuminate\Support\Facades\Cache;
 
 class YummlyRequest {
 
+    protected $cache;
+    protected $client;
+
+    public function __construct(\Illuminate\Cache\Repository $cache, $client)
+    {
+        $this->cache = $cache;
+        $this->client = $client;
+    }
+
+    public function cacheSearch($request)
+    {
+        if ($this->cache->has($request)) {
+            return json_decode($this->cache->get($request));
+        }
+
+        $json = $this->client->get('http://yummly.com/api?q=' . urlencode($request));
+        $this->cache->put($request, $json, 60);
+        return json_decode($json);
+    }
+
     public static function search($request)
     {
         $searchParams = urlencode($request);

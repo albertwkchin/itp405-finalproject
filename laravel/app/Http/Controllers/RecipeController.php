@@ -120,6 +120,10 @@ class RecipeController extends Controller
         }
     }
     */
+    public function search_recipe($recipe)
+    {
+
+    }
 
     public function search_page()
     {

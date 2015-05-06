@@ -10,7 +10,8 @@
         <p class="success"><?php echo Session::get('success'); ?></p>
     <?php endif; ?>
 
-    <h1><i class="fa fa-users"></i> Manage Users <a href="/logout" class="btn btn-default pull-right">Logout</a></h1>
+
+    <h1><i class="fa fa-users"></i> Users </h1>
 
     <div class="table-responsive">
         <table class="table table-bordered table-striped">
@@ -19,8 +20,8 @@
             <tr>
                 <th>Name</th>
                 <th>Email</th>
-                <th>Date/Time Added</th>
-                <th>Last Updated</th>
+                <th>Added At</th>
+                <th>Last Updated At</th>
                 <th></th>
             </tr>
             </thead>
@@ -34,7 +35,7 @@
                 <td>{{ $user->updated_at->format('F d, Y h:ia') }}</td>
                 <td>
                     <a href="/user/{{ $user->id }}/edit" class="btn btn-info pull-left" style="margin-right: 3px;">Edit</a>
-                    <a href="/user/{{ $user->id }}/delete" class="btn btn-info pull-left">Delete</a>
+                    <a href="/user/{{ $user->id }}/delete" class="btn btn-info pull-right">Delete</a>
                 </td>
             </tr>
             @endforeach
@@ -43,7 +44,8 @@
         </table>
     </div>
 
-    <a href="/user/create" class="btn btn-success">Add User</a>
+    <h2></h2><a href="/user/create" class="btn btn-success">Add User</a><a href="/logout" class="btn btn-default pull-right">Logout</a></h2>
+
 
 </div>
 
