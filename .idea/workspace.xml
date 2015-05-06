@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f05595cf-40b3-4e06-8c5a-0f9613d92f6b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/app/Models/Ingredient.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/app/Models/Recipe.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/RecipeController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/app/Services/YummlyRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/resources/views/add_recipe.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/resources/views/admin.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/resources/views/bookmarks.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/resources/views/create_user.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/resources/views/dashboard.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/resources/views/edit_user.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/resources/views/home_page.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/resources/views/layout.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/resources/views/login.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/resources/views/manage_users.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laravel/resources/views/signup.blade.php" />
-      <change type="DELETED" beforePath="C:\Users\Albert\Documents\itp405-finalproject\laravel\app\Http\Controllers\DvdController.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Albert\Documents\itp405-finalproject\laravel\app\Models\Dvd.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Albert\Documents\itp405-finalproject\laravel\app\Models\Format.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Albert\Documents\itp405-finalproject\laravel\app\Models\Genre.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Albert\Documents\itp405-finalproject\laravel\app\Models\Label.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Albert\Documents\itp405-finalproject\laravel\app\Models\Rating.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Albert\Documents\itp405-finalproject\laravel\app\Models\Review.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Albert\Documents\itp405-finalproject\laravel\app\Models\Sound.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Albert\Documents\itp405-finalproject\laravel\app\Services\RottenTomatoes.php" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Albert\Documents\itp405-finalproject\laravel\resources\views\results.php" afterPath="$PROJECT_DIR$/laravel/resources/views/results.blade.php" />
-      <change type="MOVED" beforePath="C:\Users\Albert\Documents\itp405-finalproject\laravel\resources\views\search.php" afterPath="$PROJECT_DIR$/laravel/resources/views/search.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/.env" afterPath="$PROJECT_DIR$/laravel/.env" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/Http/Middleware/Authenticate.php" afterPath="$PROJECT_DIR$/laravel/app/Http/Middleware/Authenticate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="$PROJECT_DIR$/laravel/app/Http/Middleware/RedirectIfAuthenticated.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/Services/Registrar.php" afterPath="$PROJECT_DIR$/laravel/app/Services/Registrar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/User.php" afterPath="$PROJECT_DIR$/laravel/app/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/Http/Middleware/VerifyCsrfToken.php" afterPath="$PROJECT_DIR$/laravel/app/Http/Middleware/VerifyCsrfToken.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/Http/routes.php" afterPath="$PROJECT_DIR$/laravel/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="itp405-spring2015-mvc.iws" />
@@ -58,61 +26,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Recipe.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/app/Models/Recipe.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="29" selection-start="2078" selection-end="2078" vertical-scroll-proportion="-15.692307" vertical-offset="782" max-vertical-offset="2873">
-              <folding>
-                <element signature="e#29#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bookmarks.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/resources/views/bookmarks.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="103" selection-end="103" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="4590">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="results.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/resources/views/results.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="165" column="20" selection-start="4337" selection-end="4337" vertical-scroll-proportion="-1.9615384" vertical-offset="2754" max-vertical-offset="6086">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RecipeController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/RecipeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="36" selection-start="2067" selection-end="2067" vertical-scroll-proportion="-13.730769" vertical-offset="765" max-vertical-offset="2992">
-              <folding>
-                <element signature="e#40#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/resources/views/search.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="19" selection-start="78" selection-end="78" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="578">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="home_page.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/resources/views/home_page.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="34" selection-start="512" selection-end="512" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="714">
+            <state line="19" column="42" selection-start="422" selection-end="422" vertical-scroll-proportion="-8.423077" vertical-offset="104" max-vertical-offset="714">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/resources/views/home.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="14" selection-start="284" selection-end="284" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="391">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="genre.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/resources/views/genre.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="816">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit_user.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/resources/views/edit_user.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="31" selection-start="536" selection-end="536" vertical-scroll-proportion="-14.961538" vertical-offset="2" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
@@ -121,16 +65,7 @@
       <file leaf-file-name="layout.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/resources/views/layout.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="31" selection-start="574" selection-end="574" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="1037">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.blade.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/laravel/resources/views/admin.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="34" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.5072464" vertical-offset="293" max-vertical-offset="1292">
+            <state line="35" column="30" selection-start="1082" selection-end="1082" vertical-scroll-proportion="-13.307693" vertical-offset="249" max-vertical-offset="1037">
               <folding />
             </state>
           </provider>
@@ -139,16 +74,36 @@
       <file leaf-file-name="dashboard.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/resources/views/dashboard.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="10" selection-start="767" selection-end="767" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="612">
+            <state line="20" column="10" selection-start="767" selection-end="767" vertical-scroll-proportion="-13.0" vertical-offset="2" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_user.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/resources/views/create_user.blade.php">
+      <file leaf-file-name="manage_users.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/resources/views/manage_users.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="11" selection-start="49" selection-end="49" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="714">
+            <state line="40" column="23" selection-start="1248" selection-end="1248" vertical-scroll-proportion="-13.307693" vertical-offset="334" max-vertical-offset="969">
+              <folding>
+                <element signature="n#style#0;n#a#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/readme.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="493">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="0.02905983" vertical-offset="0" max-vertical-offset="585">
               <folding />
             </state>
           </provider>
@@ -167,17 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/laravel/app/Http/Controllers/SongsController.php" />
-        <option value="$PROJECT_DIR$/laravel/app/Models/SongQuery.php" />
-        <option value="$PROJECT_DIR$/laravel/app/Models/GenreQuery.php" />
-        <option value="$PROJECT_DIR$/laravel/app/Models/RatingQuery.php" />
-        <option value="$PROJECT_DIR$/laravel/resources/views/vendor/review.blade.php" />
-        <option value="$PROJECT_DIR$/laravel/.gitignore" />
-        <option value="$PROJECT_DIR$/laravel/resources/views/results.php" />
-        <option value="$PROJECT_DIR$/laravel/app/Models/Format.php" />
-        <option value="$PROJECT_DIR$/laravel/app/Models/Rating.php" />
-        <option value="$PROJECT_DIR$/laravel/app/Models/Label.php" />
-        <option value="$PROJECT_DIR$/laravel/app/Models/Review.php" />
         <option value="$PROJECT_DIR$/laravel/app/Models/Sound.php" />
         <option value="$PROJECT_DIR$/laravel/app/Models/Genre.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/vendor/dvd.blade.php" />
@@ -191,7 +135,6 @@
         <option value="$PROJECT_DIR$/laravel/app/Http/Controllers/DvdController.php" />
         <option value="$PROJECT_DIR$/laravel/app/Models/Ingredient.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/vendor/login.blade.php" />
-        <option value="$PROJECT_DIR$/laravel/resources/views/manage_users.blade.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/vendor/admin.blade.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/add_ingredient.blade.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/edit_user.blade.php" />
@@ -203,20 +146,33 @@
         <option value="$PROJECT_DIR$/laravel/resources/views/signup.blade.php" />
         <option value="$PROJECT_DIR$/laravel/app/Http/Middleware/RedirectIfAuthenticated.php" />
         <option value="$PROJECT_DIR$/laravel/app/Services/YummlyPage.php" />
-        <option value="$PROJECT_DIR$/laravel/app/Services/YummlyRequest.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/add_recipe.blade.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/search.blade.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/login.blade.php" />
         <option value="$PROJECT_DIR$/laravel/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/create_user.blade.php" />
         <option value="$PROJECT_DIR$/laravel/app/Models/Recipe.php" />
-        <option value="$PROJECT_DIR$/laravel/resources/views/layout.blade.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/results.blade.php" />
-        <option value="$PROJECT_DIR$/laravel/app/Http/Controllers/RecipeController.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/bookmarks.blade.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/dashboard.blade.php" />
-        <option value="$PROJECT_DIR$/laravel/resources/views/home_page.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/composer.json" />
+        <option value="$PROJECT_DIR$/laravel/gulpfile.js" />
+        <option value="$PROJECT_DIR$/laravel/tests/SlugTest.php" />
+        <option value="$PROJECT_DIR$/laravel/app/Services/Client.php" />
+        <option value="$PROJECT_DIR$/laravel/tests/YummlyTest.php" />
+        <option value="$PROJECT_DIR$/laravel/app/Services/YummlyRequest.php" />
+        <option value="$PROJECT_DIR$/laravel/app/Services/Slug.php" />
+        <option value="$PROJECT_DIR$/laravel/app/Http/Controllers/RecipeController.php" />
+        <option value="$PROJECT_DIR$/laravel/tests/RecipeTest.php" />
+        <option value="$PROJECT_DIR$/laravel/tests/RecipeControllerTest.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/admin.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/resources/views/home_page.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/resources/views/css/simple-sidebar.css" />
+        <option value="$PROJECT_DIR$/laravel/resources/views/css/boostrap.min.css" />
+        <option value="$PROJECT_DIR$/laravel/resources/views/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/laravel/resources/views/layout.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/resources/views/manage_users.blade.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -261,6 +217,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="itp405-spring2015-mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="itp405-finalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -271,7 +237,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/ITP404/Reverscipe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SearchEverywhereHistory" value="" />
     <property name="FullScreen" value="false" />
@@ -279,6 +245,11 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Albert\Documents\itp405-finalproject\laravel\app\Services" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Albert\itp405-finalproject\laravel\resources\views\fonts" />
+      <recent name="C:\Users\Albert\itp405-finalproject\laravel\resources\views\js" />
+      <recent name="C:\Users\Albert\itp405-finalproject\laravel\resources\views\css" />
     </key>
   </component>
   <component name="RunManager">
@@ -325,15 +296,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32982087" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18697916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18697916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -341,6 +311,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -366,235 +337,44 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/laravel/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="48" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/storage/logs/laravel-2015-02-18.log">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="208" selection-start="7287" selection-end="7287" vertical-scroll-proportion="0.21468927" vertical-offset="575" max-vertical-offset="38879" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="13" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="136" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="37" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1547" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/genre.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="38" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="816" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/review.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="48" selection-start="2894" selection-end="2894" vertical-scroll-proportion="0.0" vertical-offset="871" max-vertical-offset="2584" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/bootstrap/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/bootstrap/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/Auth/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/Auth/PasswordController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.28428093" vertical-offset="255" max-vertical-offset="1156">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/WelcomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="902">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/auth/password.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/auth/reset.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/emails/password.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3468">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/config/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/resources/views/auth/register.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="26" selection-start="534" selection-end="534" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="1207">
-          <folding />
-        </state>
+        <state line="18" column="26" selection-start="534" selection-end="534" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="1207" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/Http/Middleware/VerifyCsrfToken.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="5" selection-start="390" selection-end="390" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="425">
-          <folding>
-            <element signature="e#38#50#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="15" column="5" selection-start="390" selection-end="390" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="425" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/resources/views/auth/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="932" selection-end="932" vertical-scroll-proportion="-9.480769" vertical-offset="0" max-vertical-offset="1173">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="14" selection-start="284" selection-end="284" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="391">
-          <folding />
-        </state>
+        <state line="29" column="0" selection-start="932" selection-end="932" vertical-scroll-proportion="-9.480769" vertical-offset="0" max-vertical-offset="1173" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/Http/Middleware/RedirectIfAuthenticated.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="7" selection-start="263" selection-end="263" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="833">
-          <folding>
-            <element signature="e#38#50#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="15" column="7" selection-start="263" selection-end="263" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="833" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/Http/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/Http/Middleware/Authenticate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="7" selection-start="314" selection-end="314" vertical-scroll-proportion="-6.2115383" vertical-offset="0" max-vertical-offset="935">
-          <folding>
-            <element signature="e#38#50#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/manage_users.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="21" selection-start="1278" selection-end="1278" vertical-scroll-proportion="-22.73077" vertical-offset="38" max-vertical-offset="935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/Services/Registrar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="47" selection-start="475" selection-end="475" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="731">
-          <folding />
-        </state>
+        <state line="19" column="7" selection-start="314" selection-end="314" vertical-scroll-proportion="-6.2115383" vertical-offset="0" max-vertical-offset="935" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/resources/views/add_recipe.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="37" selection-end="37" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="816">
-          <folding />
-        </state>
+        <state line="2" column="17" selection-start="37" selection-end="37" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="816" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/Http/Requests/Request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/Services/YummlyRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="850">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/User.php">
@@ -606,30 +386,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/resources/views/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="46" selection-start="637" selection-end="701" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/signup.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="28" selection-start="273" selection-end="273" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="697">
-          <folding />
-        </state>
+        <state line="26" column="46" selection-start="637" selection-end="701" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="612" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="0" selection-start="2105" selection-end="2105" vertical-scroll-proportion="0.6822742" vertical-offset="799" max-vertical-offset="2720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/edit_user.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="42" selection-start="315" selection-end="315" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="714">
-          <folding />
-        </state>
+        <state line="83" column="0" selection-start="2105" selection-end="2105" vertical-scroll-proportion="0.6822742" vertical-offset="799" max-vertical-offset="2720" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/Models/Ingredient.php">
@@ -644,35 +406,185 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/create_user.blade.php">
+    <entry file="file://$PROJECT_DIR$/laravel/artisan">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="11" selection-start="49" selection-end="49" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="714">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/Models/Recipe.php">
+    <entry file="file://$PROJECT_DIR$/laravel/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="29" selection-start="2078" selection-end="2078" vertical-scroll-proportion="-15.692307" vertical-offset="782" max-vertical-offset="2873">
-          <folding>
-            <element signature="e#29#36#0" expanded="true" />
-          </folding>
+        <state line="7" column="23" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/results.blade.php">
+    <entry file="file://$PROJECT_DIR$/laravel/.env.example">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="20" selection-start="4337" selection-end="4337" vertical-scroll-proportion="-1.9615384" vertical-offset="2754" max-vertical-offset="6086">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="26" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Services/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/vendor/bin/phpunit.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/vendor/bin/phpunit">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="26" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Services/Registrar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="47" selection-start="475" selection-end="475" vertical-scroll-proportion="-5.8076925" vertical-offset="121" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/WelcomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="902">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/tests/YummlyTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="12" selection-start="1139" selection-end="1139" vertical-scroll-proportion="-13.961538" vertical-offset="283" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="34" selection-start="309" selection-end="309" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Services/Slug.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="5" selection-start="111" selection-end="111" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/tests/SlugTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="81" selection-start="241" selection-end="241" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/tests/TestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/tests/ExampleTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/RecipeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="36" selection-start="2067" selection-end="2067" vertical-scroll-proportion="-13.730769" vertical-offset="765" max-vertical-offset="2992">
-          <folding>
-            <element signature="e#40#63#0" expanded="true" />
-          </folding>
+        <state line="124" column="0" selection-start="3782" selection-end="3782" vertical-scroll-proportion="-7.8461537" vertical-offset="1836" max-vertical-offset="2992">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Services/YummlyRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="85" selection-start="544" selection-end="544" vertical-scroll-proportion="-1.3076923" vertical-offset="357" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/tests/RecipeTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="664" selection-end="664" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Models/Recipe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="21" selection-start="149" selection-end="149" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="2839">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/admin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="22" selection-start="2042" selection-end="2073" vertical-scroll-proportion="-9.807693" vertical-offset="663" max-vertical-offset="1292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/create_user.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="11" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/bookmarks.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="4590">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/signup.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="28" selection-start="273" selection-end="273" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/review.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2584">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -683,39 +595,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/bookmarks.blade.php">
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/results.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="103" selection-end="103" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="4590">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="165" column="20" selection-start="4337" selection-end="4337" vertical-scroll-proportion="-1.9615384" vertical-offset="2754" max-vertical-offset="6086">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/layout.blade.php">
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="31" selection-start="574" selection-end="574" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="1037">
+        <state line="13" column="14" selection-start="284" selection-end="284" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/genre.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/resources/views/dashboard.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="10" selection-start="767" selection-end="767" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="612">
+        <state line="20" column="10" selection-start="767" selection-end="767" vertical-scroll-proportion="-13.0" vertical-offset="2" max-vertical-offset="612">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/resources/views/home_page.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="34" selection-start="512" selection-end="512" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="714">
+        <state line="19" column="42" selection-start="422" selection-end="422" vertical-scroll-proportion="-8.423077" vertical-offset="104" max-vertical-offset="714">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/admin.blade.php">
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/edit_user.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="34" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.5072464" vertical-offset="293" max-vertical-offset="1292">
+        <state line="23" column="31" selection-start="536" selection-end="536" vertical-scroll-proportion="-14.961538" vertical-offset="2" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="30" selection-start="1082" selection-end="1082" vertical-scroll-proportion="-13.307693" vertical-offset="249" max-vertical-offset="1037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/manage_users.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="23" selection-start="1248" selection-end="1248" vertical-scroll-proportion="-13.307693" vertical-offset="334" max-vertical-offset="969">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="597">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="0.02905983" vertical-offset="0" max-vertical-offset="585">
           <folding />
         </state>
       </provider>
