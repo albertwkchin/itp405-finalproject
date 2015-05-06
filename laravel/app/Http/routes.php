@@ -1,78 +1,155 @@
 <?php
 
-use App\Models\Dvd;
-use App\Models\Genre;
-use App\Models\Label;
-use App\Models\Rating;
-use App\Models\Sound;
-use App\Models\Format;
+use App\User;
+
+Route::get('/', 'RecipeController@onStart');
+Route::post('/', 'RecipeController@calculate');
+Route::get('/add_recipe', 'RecipeController@add_page');
+Route::get('/bookmarks', 'RecipeController@show_bookmarks');
+Route::post('/add_recipe', 'RecipeController@add_recipe');
+Route::get('/search', 'RecipeController@search_page');
+Route::get('/search_results', 'RecipeController@yummly_search');
+
+Route::group(['middleware' => 'auth'], function(){
+    Route::post('/results', 'RecipeController@bookmark_recipe');
+    Route::post('bookmark_recipe', 'RecipeController@bookmark_recipe');
+    Route::post('/bookmarks', 'RecipeController@remove_bookmark');
+});
+
+/*~~~~~~~~~~~~~~~~~~~~~~~BEGIN USER MANAGEMENT FUNCTIONS~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+Route::get('signup', function()
+{
+    return view('signup');
+});
 
 
-use Illuminate\Http\Request;
+Route::post('signup', function()
+{
+    $validation = User::validate(Request::all());
 
-Route::get('/', 'WelcomeController@index');
+    if ($validation->passes()) {
+        $user = new User();
+        $user->name = Request::input('name');
+        $user->email = Request::input('email');
+        $user->password = Hash::make(Request::input('password'));
+        $user->save();
 
-Route::post('/dvds', function(Request $request) {
-    $dvd = new Dvd();
-    $dvd->title = $request->input('title');
-    $dvd->genre_id = $request->input('genre_id');
-    $dvd->format_id = $request->input('format_id');
-    $dvd->rating_id = $request->input('rating_id');
-    $dvd->sound_id = $request->input('sound_id');
-    $dvd->label_id = $request->input('label_id');
-    if ($dvd->save()) {
-        return redirect('dvds/create')->with('success', 'Dvd added to database successfully.');
+        Auth::loginUsingId($user->id);
+        return redirect('dashboard');
     }
-    else {
-        return redirect('dvds/create')->withInput();
+
+    return redirect('signup')->withInput()->withErrors($validation->errors());
+});
+
+
+Route::get('login', function()
+{
+    return view('login');
+});
+
+
+Route::post('login', function()
+{
+    $credentials = [
+        'email' => Request::input('email'),
+        'password' => Request::input('password')
+    ];
+
+    $remember_me = Request::input('remember_me') === 'on' ? true : false;
+
+    if (Auth::attempt($credentials, $remember_me)) {
+
+        if(Request::input('email') == "dtang@usc.edu" ||  Request::input('email') == "david@usc.edu" || Request::input('email') == "albertwkchin@gmail.com" )
+        {
+            return redirect('admin');
+        }
+
+        return redirect()->intended();
     }
+
+    return redirect('login');
 });
 
-//Route::get('/dvds/search', 'DvdController@search');
-Route::get('/', 'DvdController@search');
-Route::get('/dvds/search', function() {
-    $allGenres = Genre::all();
-    $allRatings = Rating::all();
-    return view('search', [
-       'genres' => $allGenres,
-       'ratings' => $allRatings
+
+Route::get('admin', function()
+{
+    if(Auth::check())
+    {
+        return view('admin');
+    }
+    return redirect('login');
+});
+
+
+Route::get('dashboard', function()
+{
+    if (Auth::check()) {
+        return view('dashboard');
+    }
+
+    return redirect('login');
+});
+
+
+
+Route::get('logout', function()
+{
+    Auth::logout();
+    return redirect('login');
+});
+
+Route::get('manage', function()
+{
+    $users = User::all();
+
+    return view('manage_users', [
+        'users' => $users
     ]);
 });
 
-//Route::get('/dvds/create', 'DvdController@create');
-Route::get('/dvds/create', function() {
-    $allGenres = Genre::all();
-    $allLabels = Label::all();
-    $allRatings = Rating::all();
-    $allSounds = Sound::all();
-    $allFormats = Format::all();
-
-    return view('create', [
-       'genres' => $allGenres,
-       'labels' => $allLabels,
-       'ratings' => $allRatings,
-       'sounds' => $allSounds,
-       'formats' => $allFormats
-    ]);
+Route::get('user/create', function()
+{
+    return view('create_user');
 });
 
+Route::post('user/create', function()
+{
+    $validation = User::validate(Request::all());
 
-Route::get('/genres/{genre_name}/dvds', function($genre_name) {
-    $genre = Genre::where('genre_name', '=', $genre_name)->first();
-    $dvds = Dvd::where('genre_id', '=', $genre->id)
-                ->with('rating')
-                ->with('genre')
-                ->with('label')
-                ->with('sound')
-                ->with('format')
-                ->get();
+    if ($validation->passes()) {
+        $user = new User();
+        $user->name = Request::input('name');
+        $user->email = Request::input('email');
+        $user->password = Hash::make(Request::input('password'));
+        $user->save();
 
-    return view('genre',[
-        'dvds' => $dvds,
-        'genre' => $genre
-    ]);
+        return redirect('manage')
+            ->with('success', '"' . $user->name . '" inserted successfully.');
+    }
+    return redirect('user/create')->withInput()->withErrors($validation->errors());
 });
 
+Route::get('user/{id}/edit', function($id)
+{
+    return view('edit_user');
+});
 
-Route::get('/dvds/results', 'DvdController@results');
-Route::get('/dvds/{id}', 'DvdController@review');
+Route::post('user/{id}/edit', function($id)
+{
+    $user = User::find($id);
+    $user->name = Request::input('name');
+    $user->email = Request::input('email');
+    $user->password = Hash::make(Request::input('password'));
+    $user->save();
+    return redirect('manage')
+        ->with('success', '"' . $user->name . '" edited successfully.');
+});
+
+Route::get('user/{id}/delete', function($id)
+{
+    $user = User::find($id);
+    $user->delete();
+    return redirect('manage')
+        ->with('success', '"' . $user->name . '" deleted successfully.');
+});
